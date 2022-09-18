@@ -51,32 +51,6 @@ header{
     border-radius: 20px;
 }
 /*Estilos del body*/
-.principal{
-    margin-top: 20px;
-    width: 100%;
-    height: auto;
-}
-.tituloP, .titulo2P{
-    max-width: 100%;
-    height: fit-content;
-}
-.imgNovedades{
-    margin-left: 20%;
-}
-.novedadesImagen{
-    height: auto;
-    max-width: 70%;
-    margin-top: 20px;
-}
-.imgMasVendidos{
-    margin-left: 20%;
-}
-.masNovedadesImagen{
-    height: auto;
-    max-width: 70%;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
 h2{
     font-size: 2.2rem;
     padding: 8px;
@@ -87,6 +61,105 @@ h2{
 h2 a{
     text-decoration: none;
     color: #76B1CC;
+}
+form{
+    margin: 20px auto;
+    width: 500px;
+    margin-left: 680px;
+}
+fieldset{
+    border-radius: 10px;
+    background-color: #91b3c2;
+    border: solid;
+}
+/*Estilo Index*/
+.principal{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.tituloP, .titulo2P{
+    max-width: 100%;
+    height: fit-content;
+}
+.imgMasVendidos{
+    margin-left: 20%;
+}
+.masNovedadesImagen{
+    height: auto;
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 8px;
+}
+.contenedorNovedades{
+    width: 80%;
+    height: 100vh;
+    background-image: url(../assets/img/fondo.jpeg);
+    background-color: #79a9c04c;
+    margin: 20px auto;
+    padding: 15px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "foto1 foto2 foto3"
+    "texto1 texto2 texto3"
+    "foto4 foto5 foto6"
+    "texto4 texto5 texto6";
+}
+.foto1{
+    grid-area: foto1;
+
+}
+.foto2{
+    grid-area: foto2;
+}
+.foto3{
+    grid-area: foto3;
+}
+.texto1{
+    grid-area: texto1;
+}
+.texto2{
+    grid-area: texto2;
+}
+.texto3{
+    grid-area: texto3;
+}
+.foto4{
+    grid-area: foto4;
+}
+.foto5{
+    grid-area: foto5;
+}
+.foto6{
+    grid-area: foto6;
+}
+.texto4{
+    grid-area: texto4;
+}
+.texto5{
+    grid-area: texto5;
+}
+.texto6{
+    grid-area: texto6;
+}
+.novedadesImagen{
+    width: 50%;
+}
+.imgAnimacion{
+    transition:  all, 2s;
+}
+.imgAnimacion:hover{
+    width: 200px;
+    border-radius: 30px;
 }
 /*Estilos del footer*/
 footer{
@@ -127,11 +200,7 @@ footer p{
     width: 30px;
     height: 30px;
 }
-h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-    padding: 8px;
-}
+/*Estilo PregFrec*/
 .sectorPF{
     width: 100%;
     display: flex;
@@ -175,16 +244,6 @@ section p{
     font-size: 2rem;
     margin: 10px;
 }
-form{
-    margin: 20px auto;
-    width: 500px;
-    margin-left: 680px;
-}
-fieldset{
-    border-radius: 10px;
-    background-color: #91b3c2;
-    border: solid;
-}
 .contactoF{
     padding: 18px;
     width: 350px;
@@ -200,6 +259,7 @@ label{
   font: 1rem sans-serif;
   width: 300px;
 }
+/*Estilo Registrar*/
 .formRegistrar{
     padding: 10px;
     margin: 20px;
@@ -220,6 +280,7 @@ textarea{
     height: 30px;
     font-size: 1rem;
 }
+/*Estilo Nosotros*/
 .nosImagenes{
     display: flex;
     flex-direction: row;
@@ -227,6 +288,7 @@ textarea{
     padding: 10px;
     margin: 80px;
 }
+/*Estilo del Carrito*/
 .carrito{
     display: flex;
     flex-direction: row;
