@@ -88,26 +88,26 @@ h2 a{
     text-decoration: none;
     color: #76B1CC;
 }
+/*Estilos del footer*/
 footer{
     background-position: center;
-    display: flex;
     background-color: #3B5866;
-    padding: 10px;
     width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+    height: auto;
     position: static;
     bottom: 0;
-    width: 100%;
     }
 footer p{
     text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.logoSec{
+    margin: 30px;
+}
 .itemFooter{
     list-style-type: none;
     text-align: right;
-    flex-direction: column; 
+    flex-direction: row; 
 }
 .itemFooter .itemF{
     text-align: left;
@@ -117,6 +117,10 @@ footer p{
     text-decoration: none;
     padding: 5px;
     color: #85C8E6;
+}
+.icono{
+    width: 30px;
+    height: 30px;
 }
 h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -165,9 +169,6 @@ section p{
     font-family: "Tangerine", cursive;
     font-size: 2rem;
     margin: 10px;
-}
-.icono{
-    width: 30px;
 }
 form{
     margin: 20px auto;
