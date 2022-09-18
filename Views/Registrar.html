@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="icon" href="../assets/img/favicon.ico">
+    <title>Registrarse 📚</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <main class="navbar">
+                <div>
+                    <div id="top">
+                        <img class="logo" src="../assets/img/Logo.jpeg" alt="logo sitio">
+                    </div>
+                </div>
+                <div class="titulo">
+                    <h1>Librerarg</h1>
+                </div>
+                <div>
+                    <ul class="menu">
+                        <li class="item"><a href="../index.html">Inicio</a></li>
+                        <li class="item"><a href="../Views/Novedades.html">Novedades</a></li>
+                        <li class="item"><a href="../Views/Contacto.html">Contacto</a></li>
+                        <li class="item"><a href="../views/Carrito.html">Carrito</a></li>
+                    </ul>
+                </div>
+            </main>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h3>
+                <a href="./Registrar.html">Registrarse</a>
+            </h3>
+        </div>
+        <form action="">
+            <fieldset class="formRegistrar">
+            <div>
+                <label for="name">Nombre y Apellido *</label>
+                <input class="input" types="text" name="name" placeholder="Juan" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email *</label>
+                <input class="input" type="email" name="email" placeholder="email@email.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="confemail">Confirmar Email *</label>
+                <input class="input" type="confemail" name="confemail" placeholder="email@email.com" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password *</label>
+                <input class="input" type="password" placeholder="Password"  name="pass" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Confirmar Password *</label>
+                <input class="input" type="password" placeholder="Password"  name="pass" required>
+            </div>
+            <br>
+            <div>
+                <label for="preg">Pregunta Secreta</label>
+                <select name="preg" id="">
+                    <option value="1">¿Cuál es tu lugar de nacimiento?</option>
+                    <option value="2">Nombre de tu primera mascota</option>
+                    <option value="3">¿Cuál es tu hobby favorito?</option>
+                    <option value="4">Nombre de tu película favorita</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="respuesta">Respuesta</label>
+                <textarea name="comentarios" id="" cols="40" rows="1"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="terminos">Acepta terminos y condiciones</label>
+                <input class="input" type="checkbox" name="terminos" value="1" required>
+            </div>
+            <br>
+            <div class="button">
+                <input class="botonP" type="submit" value="Enviar">
+                <input class="botonP" type="reset" value="Borrar datos">
+            </div>
+        </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class="logoSec">
+            <img class="logo" src="../assets/img/Logo.jpeg" alt="logo sitio">
+        </div>
+        <div class="SucFooter">
+            <h4>
+                Sucursales
+            </h4>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem culpa, cumque eaque saepe porro accusamus? Iste minus veniam error enim.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem culpa, cumque eaque saepe porro accusamus? Iste minus veniam error enim.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem culpa, cumque eaque saepe porro accusamus? Iste minus veniam error enim.
+            </p>
+        </div>
+        <div>
+            <ul class="itemFooter">
+                <li class="itemF"><a href="../views/Contacto.html">Contacto</a></li>
+                <li class="itemF"><a href="../views/Nosotros.html">Sobre Nosotros</a></li>
+                <li class="itemF"><a href="../views/PreguntasF.html">Preguntas Frecuentes</a></li>
+                <li class="itemF"><a href="../views/Contacto.html">Trabajá con Nosotros</a></li>
+            </ul>
+        </div>
+        <div >
+            <img class="icono" src="../assets/img/facebook.png" alt="Facebook">
+            <img class="icono" src="../assets/img/instagram.png" alt="Instagram">
+            <img class="icono" src="../assets/img/twitter.png" alt="Twitter">
+        </div>
+    </footer>
+</body>
+</html>

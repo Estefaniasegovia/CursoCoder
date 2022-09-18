@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(241, 237, 231);
+}
+@font-face {
+    font-family: "Domine";
+    src: url(../assets/font/Domine/Domine-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Tangerine";
+    src: url(../assets/font/Tangerine/Tangerine-Bold.ttf);
+}
+h1, h2, h3, h4{
+    color: #76B1CC;
+    text-align: center;
+    padding: 20px;
+    font-family: "Tangerine", cursive;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    margin-left: 300px;
+}
+header{
+    text-align: center;
+    display: inline-block;
+    background-color: #3B5866;
+    width: 100%;
+    height: 12%;
+    top: 0%;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: auto;
+    border-radius: 20%;
+    text-align: left;
+}
+.menu{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 20px auto;
+    text-align: right;
+}
+.menu .item{
+    display: inline-block;
+    position: relative;
+    font-size: 1.1rem;
+    text-align: right;
+    height: 50px;
+}
+.menu .item a{
+    color: #85C8E6;
+    text-decoration: none;
+    font-weight: bolder;
+    display: flex;
+    padding: 20px;
+}
+.principal{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.tituloP, .titulo2P{
+    max-width: 100%;
+    height: fit-content;
+}
+.imgNovedades{
+    margin-left: 20%;
+}
+.novedadesImagen{
+    height: auto;
+    max-width: 70%;
+    margin-top: 20px;
+}
+.imgMasVendidos{
+    margin-left: 20%;
+}
+.masNovedadesImagen{
+    height: auto;
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 2.2rem;
+    padding: 8px;
+    margin: 8px;
+    font-family: "Domine", sans-serif;
+    text-align: center;
+}
+h3 a{
+    text-decoration: none;
+    color: #76B1CC;
+}
+footer{
+    background-position: center;
+    display: flex;
+    background-color: #3B5866;
+    padding: 10px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    }
+footer p{
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.itemFooter{
+    list-style-type: none;
+    text-align: right;
+    flex-direction: column; 
+}
+.itemFooter .itemF{
+    text-align: left;
+    margin: 10px;
+}
+.itemFooter .itemF a{
+    text-decoration: none;
+    padding: 5px;
+    color: #85C8E6;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 8px;
+}
+.sectorPF{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.sectionImagenPF{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sectionPF{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    margin-left: 100px;
+}
+.sectionPF h4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.sectionPF p{
+    padding: 10px;
+}
+.pregFrecP{
+    background-color: #91b3c2;
+    border-radius: 20px;
+    height: 50px;
+    margin: 20px;
+}
+.imgEnvio{
+    width: 50px;
+}
+section p{
+    text-align: left;
+    padding: 10px;
+    color: #3B5866;
+    font-family: "Tangerine", cursive;
+    font-size: 2rem;
+    margin: 10px;
+}
+.icono{
+    width: 30px;
+}
+form{
+    margin: 20px auto;
+    width: 500px;
+    margin-left: 680px;
+}
+fieldset{
+    border-radius: 10px;
+    background-color: #91b3c2;
+    border: solid;
+}
+.contactoF{
+    padding: 18px;
+    width: 350px;
+    height: 270px;
+}
+label{
+    display: inline-block;
+    justify-content: right;
+    width: 95px;
+    margin: 0px auto;
+}
+.input, textarea, select{
+  font: 1rem sans-serif;
+  width: 300px;
+}
+.formRegistrar{
+    padding: 10px;
+    margin: 20px;
+}
+textarea{
+    vertical-align: top;
+    height: 5rem;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.botonP{
+    background-color: #3B5866;
+    color: #91b3c2;
+    width: 95px;
+    height: 30px;
+    font-size: 1rem;
+}
+.nosImagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 80px;
+}
+.carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.imgCarrito{
+    margin-left: 3%;
+    width: 50%;
+    height: 40%;
+}
+.carritoImagenes{
+    height: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
