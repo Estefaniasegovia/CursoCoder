@@ -62,10 +62,14 @@ h2 a{
     text-decoration: none;
     color: #76B1CC;
 }
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    padding: 8px;
+}
+/*Estilos de formularios*/
 form{
-    margin: 20px auto;
-    width: 500px;
-    margin-left: 680px;
+    margin: 20px;
 }
 fieldset{
     border-radius: 10px;
@@ -90,11 +94,6 @@ fieldset{
     max-width: 70%;
     margin-top: 20px;
     margin-bottom: 10px;
-}
-h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-    padding: 8px;
 }
 .contenedorNovedades{
     width: 80%;
@@ -249,6 +248,7 @@ section p{
     width: 350px;
     height: 270px;
 }
+/*
 label{
     display: inline-block;
     justify-content: right;
@@ -258,26 +258,23 @@ label{
 .input, textarea, select{
   font: 1rem sans-serif;
   width: 300px;
-}
+}*/
 /*Estilo Registrar*/
 .formRegistrar{
-    padding: 10px;
-    margin: 20px;
+    width: 30%;
 }
 textarea{
     vertical-align: top;
     height: 5rem;
 }
-.button{
+/*.button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+}*/
 .botonP{
     background-color: #3B5866;
     color: #91b3c2;
-    width: 95px;
-    height: 30px;
     font-size: 1rem;
 }
 /*Estilo Nosotros*/
