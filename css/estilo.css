@@ -42,7 +42,7 @@ h2 a:hover{
 }
 h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 /*estilos del Nav*/
@@ -141,53 +141,13 @@ footer p{
     height: 30px;
 }
 /*Estilo PregFrec*/
-.sectorPF{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-.sectionImagenPF{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.sectionPF{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-    margin-left: 100px;
-}
-.sectionPF h4{
-    text-align: center;
-    font-size: 1.5rem;
-}
-.sectionPF p{
-    padding: 10px;
-}
 .pregFrecP{
     background-color: #91b3c2;
     border-radius: 20px;
-    height: 50px;
-    margin: 20px;
 }
-.imgEnvio{
-    width: 50px;
-}
-section p{
-    text-align: left;
-    padding: 10px;
-    color: #3B5866;
+.h3PregFrec{
     font-family: "Tangerine", cursive;
     font-size: 2rem;
-    margin: 10px;
-}
-.contactoF{
-    padding: 18px;
-    width: 350px;
-    height: 270px;
 }
 /*Estilo Registrar*/
 .formRegistrar{
