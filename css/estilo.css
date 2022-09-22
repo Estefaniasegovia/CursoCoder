@@ -173,20 +173,8 @@ textarea{
     margin: 80px;
 }
 /*Estilo del Carrito*/
-.carrito{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 10px;
-}
-.imgCarrito{
-    margin-left: 3%;
-    width: 50%;
-    height: 40%;
-}
-.carritoImagenes{
-    height: auto;
-    max-width: 100%;
-    margin-top: 20px;
+.tituloLibro{
+    color: #6d8e9c;
+    font-size: 2rem;
+    text-align: left;
 }
