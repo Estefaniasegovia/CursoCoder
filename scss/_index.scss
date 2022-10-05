@@ -1,0 +1,21 @@
+/*Estilo Index*/
+.principal{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.imagenFondo{
+    background-image: url(../assets/img/fondo.jpeg);
+}
+.novedadesImagen{
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.imgAnimacion{
+    transition:  all, 2s;
+    &:hover{
+        width: 200px;
+        border-radius: 30px;
+    }
+}

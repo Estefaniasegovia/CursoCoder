@@ -1,180 +1,171 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /*Elementos Generales*/
-body{
-    background-color: rgb(241, 237, 231);
-}
+body {
+  background-color: #f1ede7; }
+
 @font-face {
-    font-family: "Domine";
-    src: url(../assets/font/Domine/Domine-VariableFont_wght.ttf);
-}
+  font-family: "Domine";
+  src: url(../assets/font/Domine/Domine-VariableFont_wght.ttf); }
+
 @font-face {
-    font-family: "Tangerine";
-    src: url(../assets/font/Tangerine/Tangerine-Bold.ttf);
-}
-h1, h2, h3, h4{
-    color: #76B1CC;
-    text-align: center;
-    font-family: "Tangerine", cursive;
-}
-h1{
-    font-size: 4.5rem;
-    font-family: "Tangerine", cursive;
-}
-h2{
-    font-size: 2.2rem;
-    padding: 8px;
-    margin: 8px;
-    font-family: "Domine", sans-serif;
-    text-align: center;
-}
-h2 a{
+  font-family: "Tangerine";
+  src: url(../assets/font/Tangerine/Tangerine-Bold.ttf); }
+
+h1, h2, h3, h4 {
+  color: #76B1CC;
+  text-align: center;
+  font-family: "Tangerine", cursive; }
+
+h1 {
+  font-size: 4.5rem;
+  font-family: "Tangerine", cursive; }
+
+h2 {
+  font-size: 2.2rem;
+  padding: 8px;
+  margin: 8px;
+  font-family: "Domine", sans-serif;
+  text-align: center; }
+  h2 a {
     text-decoration: none;
     color: #76B1CC;
-    padding: 40px;
-}
-h2 a:hover{
-    text-decoration: none;
-    color: #76B1CC;
-}
-h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    padding: 8px;
-}
+    padding: 40px; }
+    h2 a:hover {
+      text-decoration: none;
+      color: #76B1CC; }
+
+h3 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 8px; }
+
 /*estilos del Nav*/
-header{
-    background-color: #3b5866;
-}
-.logo{
-    width: 70px;
-    height: auto;
-    border-radius: 20%;
-}
-.menuNav{
-    text-decoration: none;
-    list-style-type: none;
-}
-.menuItem{
-    font-size: 1.1rem;
-}
-.menuNav .menuItem a{
-    color: #85C8E6;
-    text-decoration: none;
-    font-weight: bolder;
-}
-.menuItem a:hover{
+header {
+  background-color: #3b5866; }
+
+.logo {
+  width: 70px;
+  height: auto;
+  border-radius: 20%; }
+
+.menuNav {
+  text-decoration: none;
+  list-style-type: none; }
+
+.menuItem {
+  font-size: 1.1rem; }
+
+.menuNav .menuItem a {
+  color: #85C8E6;
+  text-decoration: none;
+  font-weight: bolder; }
+  .menuNav .menuItem a:hover {
     color: #3B5866;
     background-color: #6f9eb5;
-    border-radius: 20px;
-}
-/*Estilos de formularios*/
-form{
-    margin: 20px;
-}
-fieldset{
-    border-radius: 10px;
-    background-color: #91b3c2;
-    border: solid;
-}
+    border-radius: 20px; }
+
 /*Estilo Index*/
-.principal{
-    margin-top: 20px;
-    width: 100%;
-    height: auto;
-}
-.imagenFondo{
-    background-image: url(../assets/img/fondo.jpeg);
-}
-.novedadesImagen{
-    width: 250px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.imgAnimacion{
-    transition:  all, 2s;
-}
-.imgAnimacion:hover{
+.principal {
+  margin-top: 20px;
+  width: 100%;
+  height: auto; }
+
+.imagenFondo {
+  background-image: url(../assets/img/fondo.jpeg); }
+
+.novedadesImagen {
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+.imgAnimacion {
+  transition: all, 2s; }
+  .imgAnimacion:hover {
     width: 200px;
-    border-radius: 30px;
-}
+    border-radius: 30px; }
+
 /*Estilos del footer*/
-footer{
-    background-position: center;
-    background-color: #3B5866;
-    width: 100%;
-    height: auto;
-    position: static;
-    bottom: 0;
-    }
-footer p{
+footer {
+  background-position: center;
+  background-color: #3B5866;
+  width: 100%;
+  height: auto;
+  position: static;
+  bottom: 0; }
+  footer p {
     text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.logoSec{
-    margin: 30px;
-}
-.itemFooter{
-    list-style-type: none;
-    text-align: right;
-    flex-direction: row; 
-}
-.itemFooter .itemF{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.logoSec {
+  margin: 30px; }
+
+.itemFooter {
+  list-style-type: none;
+  text-align: right;
+  flex-direction: row; }
+  .itemFooter .itemF {
     text-align: left;
-    margin: 10px;
-}
-.itemFooter .itemF a{
-    text-decoration: none;
-    padding: 5px;
-    color: #85C8E6;
-}
-.itemFooter .itemF a:hover{
-    color: #3B5866;
-    background-color: #6f9eb5;
-    border-radius: 20px;
-}
-.icono{
-    width: 30px;
-    height: 30px;
-}
-/*Estilo PregFrec*/
-.pregFrecP{
-    background-color: #91b3c2;
-    border-radius: 20px;
-}
-.h3PregFrec{
-    font-family: "Tangerine", cursive;
-    font-size: 2rem;
-}
-/*Estilo Registrar*/
-.formRegistrar{
-    width: 30%;
-}
-textarea{
-    vertical-align: top;
-    height: 5rem;
-}
-.botonP{
-    background-color: #3B5866;
-    color: #91b3c2;
-    font-size: 1rem;
-    border-style: none;
-    outline-style: none;
-}
+    margin: 10px; }
+    .itemFooter .itemF a {
+      text-decoration: none;
+      padding: 5px;
+      color: #85C8E6; }
+      .itemFooter .itemF a:hover {
+        color: #3B5866;
+        background-color: #6f9eb5;
+        border-radius: 20px; }
+
+.icono {
+  width: 30px;
+  height: 30px; }
+
 /*Estilo Nosotros*/
-.nosImagenes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 80px;
-}
+.nosImagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 80px; }
+
+/*Estilo PregFrec*/
+.pregFrecP {
+  background-color: #91b3c2;
+  border-radius: 20px; }
+
+.h3PregFrec {
+  font-family: "Tangerine", cursive;
+  font-size: 2rem; }
+
+/*Estilo Registrar*/
+.formRegistrar {
+  width: 30%; }
+
+textarea {
+  vertical-align: top;
+  height: 5rem; }
+
+.botonP {
+  background-color: #3B5866;
+  color: #91b3c2;
+  font-size: 1rem;
+  border-style: none;
+  outline-style: none; }
+
+/*Estilos de formularios*/
+form {
+  margin: 20px; }
+
+fieldset {
+  border-radius: 10px;
+  background-color: #91b3c2;
+  border: solid; }
+
 /*Estilo del Carrito*/
-.tituloLibro{
-    color: #6d8e9c;
-    font-size: 2rem;
-    text-align: left;
-}
+.tituloLibro {
+  color: #6d8e9c;
+  font-size: 2rem;
+  text-align: left; }

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos Generales*/
+body{
+    background-color: rgb(241, 237, 231);
+}
+@font-face {
+    font-family: "Domine";
+    src: url(../assets/font/Domine/Domine-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "Tangerine";
+    src: url(../assets/font/Tangerine/Tangerine-Bold.ttf);
+}
+h1, h2, h3, h4{
+    color: #76B1CC;
+    text-align: center;
+    font-family: "Tangerine", cursive;
+}
+h1{
+    font-size: 4.5rem;
+    font-family: "Tangerine", cursive;
+}
+h2{
+    font-size: 2.2rem;
+    padding: 8px;
+    margin: 8px;
+    font-family: "Domine", sans-serif;
+    text-align: center;
+    a{
+    text-decoration: none;
+    color: #76B1CC;
+    padding: 40px;
+        &:hover{
+        text-decoration: none;
+        color: #76B1CC;
+        }
+    }
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 8px;
+}
+@import "header";
+@import "index";
+@import "footer";
+@import "nosotros";
+@import "preguntasF";
+@import "registrar";
+@import "form";
+@import "carrito";
