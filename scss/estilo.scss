@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 /*Elementos Generales*/
+$color-font: #76B1CC;
+$size-font: 2.2rem;
+$size-items: 10px;
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+} 
+
 body{
     background-color: rgb(241, 237, 231);
 }
@@ -16,34 +24,31 @@ body{
     src: url(../assets/font/Tangerine/Tangerine-Bold.ttf);
 }
 h1, h2, h3, h4{
-    color: #76B1CC;
+    color: $color-font;
     text-align: center;
     font-family: "Tangerine", cursive;
 }
 h1{
-    font-size: 4.5rem;
-    font-family: "Tangerine", cursive;
+    font-size: ($size-font * 2);
 }
 h2{
-    font-size: 2.2rem;
-    padding: 8px;
-    margin: 8px;
+    font-size: $size-font;
+    padding: ($size-items - 2);
+    margin: ($size-items - 2);
     font-family: "Domine", sans-serif;
-    text-align: center;
     a{
     text-decoration: none;
-    color: #76B1CC;
-    padding: 40px;
+    color: $color-font;
+    padding: ($size-items * 4);
         &:hover{
         text-decoration: none;
-        color: #76B1CC;
+        color: $color-font;
         }
     }
 }
 h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    padding: 8px;
+    padding: ($size-items - 2);
 }
 @import "header";
 @import "index";

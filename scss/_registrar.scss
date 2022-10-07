@@ -8,8 +8,8 @@ textarea{
 }
 .botonP{
     background-color: #3B5866;
-    color: #91b3c2;
-    font-size: 1rem;
+    color: $color-font;
+    font-size: ($size-font / 2);
     border-style: none;
     outline-style: none;
 }

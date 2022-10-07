@@ -3,6 +3,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 10px;
-    margin: 80px;
+    padding: $size-items;
+    margin: ($size-items * 8);
 }

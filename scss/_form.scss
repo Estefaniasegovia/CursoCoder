@@ -1,9 +1,9 @@
-/*Estilos de formularios*/
+/*Estilos de formulario de contacto*/
 form{
-    margin: 20px;
+    margin: ($size-items * 2);
 }
 fieldset{
-    border-radius: 10px;
+    border-radius: $size-items;
     background-color: #91b3c2;
     border: solid;
 }

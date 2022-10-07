@@ -21,15 +21,13 @@ h1, h2, h3, h4 {
   font-family: "Tangerine", cursive; }
 
 h1 {
-  font-size: 4.5rem;
-  font-family: "Tangerine", cursive; }
+  font-size: 4.4rem; }
 
 h2 {
   font-size: 2.2rem;
   padding: 8px;
   margin: 8px;
-  font-family: "Domine", sans-serif;
-  text-align: center; }
+  font-family: "Domine", sans-serif; }
   h2 a {
     text-decoration: none;
     color: #76B1CC;
@@ -40,7 +38,6 @@ h2 {
 
 h3 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
   padding: 8px; }
 
 /*estilos del Nav*/
@@ -48,8 +45,8 @@ header {
   background-color: #3b5866; }
 
 .logo {
-  width: 70px;
   height: auto;
+  width: 70px;
   border-radius: 20%;
   margin-right: 40px; }
 
@@ -61,7 +58,7 @@ header {
   font-size: 1.1rem; }
 
 .menuNav .menuItem a {
-  color: #85C8E6;
+  color: #76B1CC;
   text-decoration: none;
   font-weight: bolder; }
   .menuNav .menuItem a:hover {
@@ -72,8 +69,8 @@ header {
 /*Estilo Index*/
 .principal {
   margin-top: 20px;
-  width: 100%;
-  height: auto; }
+  height: auto;
+  width: 100%; }
 
 .imagenFondo {
   background-image: url(../assets/img/fondo.jpeg); }
@@ -93,8 +90,8 @@ header {
 footer {
   background-position: center;
   background-color: #3B5866;
-  width: 100%;
   height: auto;
+  width: 100%;
   position: static;
   bottom: 0; }
   footer p {
@@ -114,15 +111,15 @@ footer {
     .itemFooter .itemF a {
       text-decoration: none;
       padding: 5px;
-      color: #85C8E6; }
+      color: #76B1CC; }
       .itemFooter .itemF a:hover {
         color: #3B5866;
         background-color: #6f9eb5;
         border-radius: 20px; }
 
 .icono {
-  width: 30px;
-  height: 30px; }
+  height: 30px;
+  width: 30px; }
 
 /*Estilo Nosotros*/
 .nosImagenes {
@@ -139,7 +136,7 @@ footer {
 
 .h3PregFrec {
   font-family: "Tangerine", cursive;
-  font-size: 2rem; }
+  font-size: 2.2rem; }
 
 /*Estilo Registrar*/
 .formRegistrar {
@@ -151,12 +148,12 @@ textarea {
 
 .botonP {
   background-color: #3B5866;
-  color: #91b3c2;
-  font-size: 1rem;
+  color: #76B1CC;
+  font-size: 1.1rem;
   border-style: none;
   outline-style: none; }
 
-/*Estilos de formularios*/
+/*Estilos de formulario de contacto*/
 form {
   margin: 20px; }
 
@@ -168,5 +165,5 @@ fieldset {
 /*Estilo del Carrito*/
 .tituloLibro {
   color: #6d8e9c;
-  font-size: 2rem;
+  font-size: 2.2rem;
   text-align: left; }

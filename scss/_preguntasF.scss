@@ -1,9 +1,9 @@
 /*Estilo PregFrec*/
 .pregFrecP{
     background-color: #91b3c2;
-    border-radius: 20px;
+    border-radius: ($size-items * 2);
 }
 .h3PregFrec{
     font-family: "Tangerine", cursive;
-    font-size: 2rem;
+    font-size: $size-font;
 }
